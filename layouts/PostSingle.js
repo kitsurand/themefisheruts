@@ -1,5 +1,5 @@
 import { markdownify } from "@lib/utils/textConverter";
-import MDXContent from "app/helper/MDXContent";
+import { MDXRemote } from 'next-mdx-remote';
 import Image from "next/image";
 import SeoMeta from "./SeoMeta";
 
